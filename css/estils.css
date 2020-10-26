@@ -11,7 +11,8 @@ h2{
 color:orange;}
 
 /* fes que els <li> siguin d'un blau hexadecimal */
-
+li{
+    color: #0000ff;}
 /*canvia el color de fons de cada paràgraf a groc */
 
 /*fes que tots els inputs tinguin un border de 3px vermell */
