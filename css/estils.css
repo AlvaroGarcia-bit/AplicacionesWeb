@@ -1,20 +1,16 @@
 /* dona al <body> element un color de fons de #bdc3c7 */
-body{
-background-color:#bdc3c7;}
+body{ background-color:#bdc3c7;}
 
 /* fes que els <h1> siguin de color #9b59b6 */
-h1{
-color:#9b59b6;}
+h1{ color:#9b59b6;}
 
 /* fes que els <h2> siguin de color orange */
-h2{
-color:orange;}
+h2{ color:orange;}
 
 /* fes que els <li> siguin d'un blau hexadecimal */
-li{
-    color: #0000ff;}
+li{ color: #0000ff;}
 /*canvia el color de fons de cada paràgraf a groc */
-
+p{ background-color: yellow;}
 /*fes que tots els inputs tinguin un border de 3px vermell */
 
 /* fes que tot el que té class 'hello' sigui de fons blanc */
