@@ -1,5 +1,24 @@
-table td{
+h1{
+    text-align: center;
+}
+
+
+ td{
     border-style: solid;
     border-color: black;
     border-width: 3px;
 }
+
+table{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.sinBordes{
+    border-style: none;
+}
+
+#segundaCelda {
+    border-top-style: none ;
+}
+
