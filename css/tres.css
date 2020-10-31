@@ -1,5 +1,7 @@
 h1{
     text-align: center;
+    background-color: red;
+    color: white;
 }
 
 
@@ -15,6 +17,7 @@ h1{
     margin: 0 auto;
    border: solid 0px;
 }
+/*
 .arribaizq{
     border: solid  1px;
     border-top-style: hidden;
@@ -28,10 +31,20 @@ h1{
     border-right-style: hidden;
     border-bottom: hidden;
 }
+*/
 
 .centroizq-der{
 border: solid 1px;
 border-left-style: hidden;
 border-right-style: hidden;
 
+}
+
+#centrocentro{
+    border: solid 1px;
+}
+.centroarri-aba{
+    border: solid 1px;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
 }
