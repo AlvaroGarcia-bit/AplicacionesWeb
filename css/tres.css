@@ -37,14 +37,20 @@ h1{
 border: solid 1px;
 border-left-style: hidden;
 border-right-style: hidden;
+width: 150px;
+height: 150px;
 
 }
 
 #centrocentro{
     border: solid 1px;
+    width: 150px;
+    height: 150px;
 }
 .centroarri-aba{
     border: solid 1px;
     border-top-style: hidden;
     border-bottom-style: hidden;
+    width: 150px;
+    height: 150px;
 }
