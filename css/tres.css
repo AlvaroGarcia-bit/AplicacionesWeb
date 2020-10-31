@@ -9,16 +9,29 @@ h1{
     border-width: 3px;
 }
 
-table{
+#table{
     width: 500px;
     height: 500px;
     margin: 0 auto;
+   border: solid 0px;
 }
-.sinBordes{
-    border-style: none;
+.arribaizq{
+    border: solid  1px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-bottom: hidden;
 }
 
-#segundaCelda {
-    border-top-style: none ;
+.arribader{
+    border: solid  1px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom: hidden;
 }
 
+.centroizq-der{
+border: solid 1px;
+border-left-style: hidden;
+border-right-style: hidden;
+
+}
