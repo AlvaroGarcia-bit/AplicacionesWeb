@@ -1,3 +1,5 @@
-p{
+#p{
     font-family: 'Raleway', sans-serif;
+    font-size: 500%;
+    text-transform: uppercase;
 }
