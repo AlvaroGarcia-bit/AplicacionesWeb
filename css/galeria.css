@@ -15,7 +15,3 @@
 <p><img src="/img/paisaje 5.jpg" alt="paisaje" width="400"></p>
 </div>*/
 
-img.resize {
-    width:540px; /* you can use % */
-    height: auto;
-}
