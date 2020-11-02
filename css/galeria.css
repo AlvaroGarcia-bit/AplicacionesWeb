@@ -26,4 +26,11 @@ img{
 h1{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
+    background-color: salmon;
+}
+
+a{
+    background-color: slateblue;
+    color: white;
+    font-size: 25px;
 }
