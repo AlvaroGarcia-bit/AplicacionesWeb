@@ -1,74 +1,29 @@
+div{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    margin-left:7px 0px ;
+}
 
-/* <div>
-        <img src="/img/dinosaurio.jpg" alt="dinosaurio"  height="100%" width="100%" HSPACE="20" VSPACE="20" >
-        <img src="/img/abarth.jpg" alt="abarth" width="100%" HSPACE="20" VSPACE="20">
-        <img src="/img/paisaje 1.jpg" alt="paisaje" width="100%" HSPACE="20" VSPACE="20">
-        
-      </div>
-      <div>
-        <img src="/img/paisaje 2.jpg" alt="paisaje" width="100%" HSPACE="20" VSPACE="20">
-        <img src="/img/patatas.jpg" alt="patatas" width="100%" HSPACE="20" VSPACE="20">
-        <img src="/img/paella.jpg" alt="paella" width="100%" HSPACE="20" VSPACE="20">
-    </div>
-    <div>
-        <img src="/img/paisaje 3.jpg" alt="paisaje" width="100%"HSPACE="20" VSPACE="20">
-        <img src="/img/paisaje 4.jpg" alt="paisaje" width="100%" HSPACE="20" VSPACE="20">
-        <img src="/img/paisaje 5.jpg" alt="paisaje" width="100%" HSPACE="20" VSPACE="20">
-    </div>*/ 
+span{
+    width: 100%;
+    height: 100%;
+    margin: 0px 7px;
+}
 
- .p1{
-    font-family: 'Raleway', sans-serif;
+hr{
+    height: ;
+    margin-left: ;
+    margin-right: ;
+    background-color: ;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+
+h1{
     text-transform: uppercase;
-    font-size: 150%; 
-    background-color: brown;
-    color: white;
-    padding: 20px;
-}
-
-.dinosaurio{
-    width: 100%;
-    height: 100%;
-    padding:20px;  
-}
-.abarth{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
-}
-
-.paisaje1{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
-}
-.paisaje2{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
-}
-.patatas{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
-}
-.paella{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
-}
-.paisaje3{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
-}
-
-.paisaje4{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
-}
-.paisaje5{
-    width: 100%;
-    height: 100%;
-    padding:20px; 
+    font-family: 'Raleway', sans-serif;
 }
