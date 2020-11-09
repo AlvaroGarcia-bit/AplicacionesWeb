@@ -11,12 +11,36 @@
     <form action="registre.html" method="GET">
 
         <label for="nombre">Nom:</label>  
-        <input id="nombre" type="text" name="nombre">
+        <input id="nombre" type="text" name="nombre" required placeholder="Introdueix el teu nom " size="20">
         
         <label for="llinat">Llinatges: </label> 
-        <input id="llinat" type="text" name="llinat">
+        <input id="llinat" type="text" name="llinat" required placeholder="Introdueix els teus llinatges" size="30">
         
          <br>
+
+        <label>Sexe </label>
+        <label for="home">Home </label>
+        <input  type="radio" id="home" name="sexe" value="H">
+
+        <label for="Dona">Dona </label>
+        <input type="radio" id="Dona" name="sexe" value="D">    
+
+        <label for="Altres">Altres </label>
+        <input  type="radio" id="Altres" name="sexe" value="A">
+     
+        <br>
+
+        <label for="email"> Email: </label>
+        <input  id="email" type="email" name="email" required 
+        placeholder="Intridueix el teu email" size="20" maxlength="50">
+
+        
+        <label for="password"> Password: </label>
+        <input  id="password" type="password" name="password" required 
+        placeholder="Màxim 8" size="10" maxlength="8">
+
+
+
 
 
     </form>
