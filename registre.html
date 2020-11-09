@@ -18,7 +18,7 @@
         
          <br>
 
-        <label>Sexe </label>
+        <label>Sexe:</label>
         <label for="home">Home </label>
         <input  type="radio" id="home" name="sexe" value="H">
 
@@ -42,11 +42,16 @@
 
         <br>
 
-        <label for="data"> Data: </label>
-        <input  id="data" type="data" name="data" required 
-            placeholder="Màxim 8" size="10" maxlength="8">
+        <label for="data"> Data Naixament: </label>
+        <input  id="data" type="date" name="data" required >
 
+        <br>
 
+        <label for="acord">Estic d'acord amb els termes i condicions </label>
+        <input id="acord" type="checkbox" name="acord" required value="S">
+
+        <input type="submit">
+        
 
     </form>
 
