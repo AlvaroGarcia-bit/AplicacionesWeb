@@ -1,27 +1,46 @@
-.flex-container{
-display: flex;
-background-color: gray;
-padding: 10px;
-border: 2px solid black;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-height: 600px;
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
 }
 
-.flex-container div{
-    background-color: gainsboro;
-    width: 100px;
-    margin: 10px;
+.navegador{
+    display: flex;
+    background-color: rgb(58, 53, 53);
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    
+}
+
+.navegador div{
+    display: inline-block;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    border: 2px solid black;
-    order: 2;
-    flex-grow: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+    margin-right: 4%;
+    max-width: 5%;
+
 }
 
-#div5{
-    order: 1;
+.navegador div:hover{
+    color: white;
+}
+div p{
+    font: bold;
+    margin-top: 10%;
+    font-family: 'Syne Mono', monospace;
+}
+
+#p{
+    font-size: 30px;
 }
