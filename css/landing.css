@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-size:100%;
+    background-repeat: no-repeat;
+    width: 100% auto; 
+    background-attachment: scroll;
+    
+}
+
+    
+.texto-principio{
+    color: rgb(252, 31, 23);
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    -webkit-text-stroke: 0.5px black;
+   
+}
+button {
+    background-color: Transparent;
+    color: black;
+    background-repeat:no-repeat;
+    border: 2px solid black;
+    cursor:pointer;
+    overflow: hidden;
+    font-size: 30px;
+    outline:none;
+    padding: 1%;
+    border-radius: 12px;
+}
+.contenido{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    margin-top: 100%;
+}
+.contenido p{
+    display: inline-block;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    cursor: pointer;
+    margin-right: 4%;
+    
+}
