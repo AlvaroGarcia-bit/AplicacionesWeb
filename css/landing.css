@@ -19,14 +19,15 @@ body{
     
 .texto{
     color: rgb(252, 31, 23);
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
     align-items: center;
     margin-top: 10%;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
     -webkit-text-stroke: 1.5px black;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    
    
 }
 button {
