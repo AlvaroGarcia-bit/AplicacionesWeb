@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 
-*{
+ *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
 body{
+    background-image:url(/img/car\ cross.jpg);
     background-size:100%;
     background-repeat: no-repeat;
     width: 100% auto; 
@@ -16,7 +17,7 @@ body{
 }
 
     
-.texto-principio{
+.texto{
     color: rgb(252, 31, 23);
     font-size: 30px;
     text-align: center;
@@ -25,7 +26,7 @@ body{
     margin-top: 10%;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 1.5px black;
    
 }
 button {
