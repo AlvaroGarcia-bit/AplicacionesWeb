@@ -8,7 +8,7 @@
 
 }
 body{
-    background-image:url(/img/car\ cross.jpg);
+    background-image:url(/img/carcross.jpg);
     background-size:100%;
     background-repeat: no-repeat;
     width: 100% auto; 
@@ -60,9 +60,10 @@ button {
 
 .tresdiv div{
  width: 30%;
+ padding: 1%;
  background-color: tomato;
  float: left;
  text-align: center;
- 
+ flex: 1 1 0px;
 
 }
