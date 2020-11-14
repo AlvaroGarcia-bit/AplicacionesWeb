@@ -27,8 +27,6 @@ body{
     height: 100vh;
 }
 
-
-
 button {
     background-color: Transparent;
     color: black;
@@ -48,7 +46,7 @@ button {
 }
 .contenido p{
     display: inline-block;
-     color: white;
+    color: white;
     margin-right: 4%;
     text-align: center;
     margin-top: 4%;
@@ -58,11 +56,11 @@ button {
 }
 
 .tresdiv div{
- width: 30%;
- padding: 1%;
+ width: 33.33%;
+ padding: 2%;
  background-color: tomato;
  float: left;
  text-align: center;
- flex: 1 1 0px;
+
 
 }
