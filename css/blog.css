@@ -23,9 +23,9 @@ li {
 
 li a {
 	display: block;
-	color: black;
+	color: rgb(253, 0, 0);
 	text-align: center;
-	padding: 14px 16px;
+	padding: 10px 12px;
 	text-decoration: none;
 }
 
@@ -44,9 +44,9 @@ li a:hover {
 }
 
 h2 {
-	color: black;
-	font-weight: bold;
-	margin-left: 3%;
+	color: rgb(255, 0, 221);
+	margin-left: 5%;
+	font-size: 45px;
 }
 
 p {
